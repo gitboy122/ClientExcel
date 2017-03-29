@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#4e8241"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large Text"
+            android:id="@+id/code"
+            android:textSize="25dp"
+            android:textColor="#fdfcfc"
+            android:layout_marginLeft="35dp"
+            android:layout_marginStart="35dp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/lecNo"
+            android:layout_toEndOf="@+id/lecNo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large Text"
+            android:id="@+id/room"
+            android:textColor="#fdfcfc"
+            android:layout_below="@+id/code"
+            android:layout_alignLeft="@+id/code"
+            android:layout_alignStart="@+id/code" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large Text"
+            android:id="@+id/teacher"
+            android:textColor="#fdfcfc"
+            android:layout_below="@+id/room"
+            android:layout_alignLeft="@+id/room"
+            android:layout_alignStart="@+id/room" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:id="@+id/time"
+            android:textColor="#fdfcfc"
+            android:layout_alignBottom="@+id/teacher"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="1."
+            android:id="@+id/lecNo"
+            android:layout_alignTop="@+id/code"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textSize="30dp"
+            android:textIsSelectable="false"
+            android:textColor="#f97611" />
+
+    </RelativeLayout>
+
+</LinearLayout>
